@@ -50,7 +50,7 @@ if __name__ == "__main__":
     )
 
     parser.add_argument("--mode", choices=["encrypt", "decrypt"], help="Mode: encrypt or decrypt")
-    parser.add_argument("--msg", help="The message (A-Z only, no spaces)")
+    parser.add_argument("--msg", help="The message (English uppercase, lowercase, and spaces only)")
     parser.add_argument("--key", help="The one-time pad (same length as message)")
 
     args = parser.parse_args()
