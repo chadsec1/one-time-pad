@@ -60,23 +60,3 @@ if __name__ == "__main__":
         print(e)
         os._exit(1)
 
-"""
-ciphertext = ""
-for i in range(len(plaintext)):
-    p = ord(plaintext[i]) - 65
-    k = ord(key[i]) - 65
-    c = (p + k) % 26
-    ciphertext += chr(c + 65)
-
-print("Encrypted:", ciphertext)
-
-# Decrypt
-decrypted = ""
-for i in range(len(ciphertext)):
-    c = ord(ciphertext[i]) - 65
-    k = ord(key[i]) - 65
-    p = (c - k + 26) % 26
-    decrypted += chr(p + 65)
-
-print("Decrypted:", decrypted)
-"""
