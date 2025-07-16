@@ -10,7 +10,7 @@ The resulting ciphertext is impossible to break if the following four conditions
 
 These requirements make the OTP the only known encryption system that is mathematically proven to be unbreakable under the principles of information theory. - [Wikipedia](https://en.wikipedia.org/wiki/One-time_pad)
 
-This program can encrypt uppercase, lowercase, and whitespaces messages only.
+This program can encrypt English uppercase, lowercase, and whitespaces messages only.
 
 # Usage
 Run 
