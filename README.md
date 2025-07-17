@@ -10,7 +10,7 @@ The resulting ciphertext is impossible to break if the following four conditions
 
 These requirements make the OTP the only known encryption system that is mathematically proven to be unbreakable under the principles of information theory. - [Wikipedia](https://en.wikipedia.org/wiki/One-time_pad)
 
-This program can encrypt English uppercase, lowercase, and whitespaces messages only.
+This program can only work English uppercase, lowercase, and whitespaces messages (for now).
 
 # Usage
 Run 
@@ -18,7 +18,7 @@ Run
 python3 main.py
 ```
 
-Choose mode, and enter your plaintext or ciphertext, and the key. You can enter the keys inside the program (safest), or pass the data on the commandline (not recommended).
+Choose mode, and enter your plaintext or ciphertext, and the key. You can enter the data inside the program (safest), or pass the data on the commandline (not recommended).
 
 
 For more information on how to use commandline options, run:
